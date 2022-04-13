@@ -1,0 +1,23 @@
+{
+	"name": "nova-umbra-theme",
+	"displayName": "Nova Umbra",
+	"description": "Fork of Cyberpunk Umbra color theme",
+	"version": "0.0.1",
+	"author": "Cody Nova",
+	"license": "MIT",
+	"engines": {
+		"vscode": "^1.18.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Nova Umbra",
+				"uiTheme": "vs-dark",
+				"path": "./themes/nova-umbra-theme.json"
+			}
+		]
+	}
+}
